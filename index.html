@@ -7,41 +7,42 @@
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <!-- NAVIGATION -->
-    <nav class="navigation">
-        <ul>
-            <li><a href="https://play-lh.googleusercontent.com/5rS-un965hkZuqUNA65RwkeqmGko91DVQHlAMCQ9lJlNguvXkCQzjl6OgAMOPZ2cCk4" target="_blank">Home</a></li>
-            <li><a href="https://www.instagram.com/alyuuza/" target="_blank">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- CONTAINER -->
-    <nav class="container">
-
-        <!-- HEADER -->
-        <header>
-            <h1 class="greeting">Hi, I'm Yuza</h1>
-            <p class="intro">
-                I experienced in Automation Engineering. Skilled in Programmable Logic Control and Industrial Maintenance.
-            </p>
-        </header>
-
-        <!-- MAIN -->
-        <main class="profile">
-            <img class="photo_profile" src="https://media.licdn.com/dms/image/C5603AQFExI22IcDDyg/profile-displayphoto-shrink_800_800/0/1618791771243?e=1692230400&v=beta&t=ITY79Z4ncv1muQt21lDUAXNj1TCLCJ6UP8nV2Xnp2EA" alt="Alyuza's Photo Profile">
+    <header>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="profile">
+            <img class="photo-profile" src="Assets/alyuza.jpg" alt="Alyuza's Photo Profile">
+            <h2>Alyuza Satrio Prayogo</h2>
             <p class="job_title">
-                Future Web Develover💟
+                Future Web Develover 💟
             </p>
-            <button class="button_say_hello" onclick="alert('Hello My Friend!')">
-                Say Hello!
-            </button>
-        </main>
-    </nav>
-        
-    <!-- FOOTER -->
-    <footer class="footer">
-        <p class="copyright">Copyright © 2023</p>
-    </footer>
-        
+        </section>
+        <section class="profile-section">
+            <p class="intro">
+                Hello, I'm <strong>Yuza</strong>. Highly skilled in Automation with a passion for developing and implementing innovative automation solutions. With a solid educational background in Electronic Engineering and practical experience in the field, I have acquired a comprehensive understanding of Industrial Automation Principles, Control Systems, and Robotic Projects.
+            </p>
+        </section>
+        <section class="social-media">
+            <li><img src="Assets/instagram.png" class="icon"><a href="https://www.instagram.com/alyuuza/"> Instagram</a></li>
+            <li><img src="Assets/youtube.png" class="icon"><a href="https://www.youtube.com/@alyuza"> YouTube</a></li>
+        </section>
+
+        <br><p class="enter">Input Your Name</p>
+        <input type="text" id="name"><br>
+        <button id="button" onclick="button()">Say Hello!</button>
+        <h2 style="display:none" id="output"></h2>
+
+    </main>
+
+    <footer><p class="copyright">Copyright © 2023</p><footer> 
+         
+    <script src="script.js"></script>
 </body>
+
 </html>
