@@ -1,60 +1,119 @@
 body {
     font-family: sans-serif;
-    background-color: #06e6fe17;
+    background-color: #ffffff;
     margin: 0;
+    padding: 0;
 }
-
 li {
-    padding: 4px;
+    list-style-type: none;
 }
-
-button {
-    background-color: #0a3037;
-    border-radius: 0.2em;
-    border-style: none;
-    color: #ffffff;
-    cursor: pointer;
-    font-size: 16px;
-    padding: 0.6em;
-}
-
-button:hover{
-    background-color: rgb(0, 188, 188);
-    transition: 1s;
-    color: black;
-}
-
-.navigation{
-    background-color: #0a3037;
-    display: flex;
-}
-
-.navigation a {
+li a{
     text-decoration: none;
-    color: white;
-}
-
-.container {
-    margin: 2em;
-    height: 100vh;
-}
-
-a:hover{
-    background-color: rgb(0, 188, 188);
-    transition: 1s;
     color: black;
 }
 
-.photo_profile {
-    width: 150px;
-    max-width: 400px;
-    border-radius: 1em;
-}
+/* NAVIGATION */
+    header{
+        background-color: #0a3037;
+        display: flex;
+    }
+    header a {
+        text-decoration: none;
+        color: white;
+    }
+        .navbar{
+            padding: 15px;
+        }
+        .nav-list{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }           
+        .nav-item{
+            margin-left: 20px;
+        }    
 
-footer{
-    background-color: #0a3037;
-    display: flex;
-    padding-left: 2em;
-    color: white;
-    font-size: 0.8em
-}
+/* MAIN */
+    main{
+        margin: 2em;
+    }
+    .social-media{
+        margin-top: 2em;
+        margin-bottom: 2em;
+        margin-left: 0;
+    }
+    .photo-profile {
+        width: 150px;
+        border-radius: 100em;
+        margin: 0;
+    }
+    .profile h2{
+        margin: 0;
+    }
+    .profile p{
+        margin: 0;
+        margin-bottom: 1em;
+    }
+    .greeting{
+        margin: 0;
+    }
+    .intro{
+        max-width: 50%;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+    .icon{
+        width: 20px;
+    }
+
+/* HOVER */
+    button {
+        background-color: #0a3037;
+        border-radius: 0.2em;
+        border-style: none;
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 0.6em;
+        margin-top: 1em;
+    }
+    button:hover{
+        background-color: rgb(0, 188, 188);
+        transition: 1s;
+        color: black;
+        margin: 10px;
+    }
+    header a:hover{
+        background-color: rgb(0, 188, 188);
+        transition: 1s;
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .social-media li a:hover{
+        background-color: rgb(10, 167, 167);
+        transition: 1s;
+        color: rgb(255, 255, 255);
+        width: 100px;
+        border-radius: 10px;
+        padding: 6px;
+    }
+    .enter{
+        margin: 0;
+    }
+
+/* FOOTER */
+    footer{
+        background-color: #0a3037 ;
+        position: fixed;
+        width: 100%;
+        color: white;
+        bottom: 0;
+        padding: 0.1em;
+    }
+    footer p{
+        padding-left: 2em;
+        font-size: 14px;
+    }
