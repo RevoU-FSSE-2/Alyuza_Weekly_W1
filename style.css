@@ -14,6 +14,19 @@ li a{
     text-decoration: none;
     color: black;
 }
+p {
+    font-size: 18px;
+}
+button {
+    background-color: #0a3037;
+    border-radius: 0.2em;
+    border-style: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0.6em;
+    margin-top: 1em;
+}
 
 /* NAVIGATION */
     header{
@@ -40,53 +53,68 @@ li a{
 
 /* MAIN */
     main{
-        margin: 2em;
+        margin: 4em;
+        margin-left: 15em;
+        margin-right: 15em;
+        border: solid rgb(215, 215, 215) 1px;
+        border-radius: 2em;
+        padding: 3em;
+        box-shadow: 4px 4px 20px rgb(155, 155, 155);
     }
-    .social-media{
-        margin-top: 2em;
-        margin-bottom: 2em;
-        margin-left: 0;
-    }
-    .photo-profile {
-        width: 150px;
-        border-radius: 100em;
-        margin-bottom: 1em;
-    }
-    .profile h2{
-        margin: 0;
-    }
-    .profile p{
-        margin: 0;
-        margin-bottom: 1em;
-    }
-    .greeting{
-        margin: 0;
-    }
-    .intro{
-        max-width: 60%;
-        margin-bottom: 1em;
-    }
-    .icon{
-        width: 18px;
-    }
+        .social-media{
+            margin-top: 2em;
+            margin-bottom: 2em;
+            margin-left: 0;
+        }
+        .social-media a{
+            font-size: 30px;
+        }
+        .icon{
+            width: 30px;
+        }
+        .photo-profile {
+            width: 160px;
+            border-radius: 100em;
+            margin-bottom: 1em;
+            box-shadow: 6px 6px 8px rgb(169, 169, 169);
+        }
+        .section-profile h2{
+            margin: 0;
+        }
+        .section-profile p{
+            margin: 0;
+            margin-bottom: 2em;
+        }
+        .greeting{
+            margin: 0;
+        }
+        .intro{
+            max-width: 100%;
+            margin-bottom: 1em;
+        }
+        .enter{
+            margin: 0;
+        }
+        .background{
+            width: 100%;
+            display: flex;
+            border-radius: 10px;
+            box-shadow: 6px 6px 14px rgb(92, 92, 92);
+        }
+        #name{
+            border-radius: 0.5em;
+            height: 2em;
+            padding-left: 1em;
+        }
+
+/* VIDEOS */
+iframe{
+    margin-top: 2em;
+    border-radius: 2em;
+    box-shadow: 6px 10px 14px rgb(0, 0, 0);
+}
 
 /* HOVER */
-    button {
-        background-color: #0a3037;
-        border-radius: 0.2em;
-        border-style: none;
-        color: #ffffff;
-        cursor: pointer;
-        font-size: 16px;
-        padding: 0.6em;
-        margin-top: 1em;
-    }
-    button:hover{
-        background-color: rgb(0, 188, 188);
-        transition: 1s;
-        color: black;
-        margin: 10px;
-    }
     header a:hover{
         background-color: rgb(0, 188, 188);
         transition: 1s;
@@ -94,23 +122,34 @@ li a{
         padding: 10px;
         border-radius: 10px;
     }
+    .button-say:hover{
+        background-color: rgb(0, 188, 188);
+        transition: 1s;
+        color: black;
+        margin: 10px;
+    }
     .social-media li a:hover{
         background-color: rgb(10, 167, 167);
         transition: 1s;
         color: rgb(255, 255, 255);
-        width: 100px;
+        width: 0px;
         border-radius: 10px;
         padding: 6px;
     }
-    .enter{
-        margin: 0;
+    .subscribe a:hover{
+        background-color: rgb(198, 17, 17);
+        transition: 1s;
+        color: rgb(255, 255, 255);
+        border-radius: 10px;
+        padding: 8px;
     }
+    
 
 /* FOOTER */
     footer{
         background-color: #0a3037 ;
         margin-top: auto;
-
+        
     }
     footer p{
         padding-left: 2em;
