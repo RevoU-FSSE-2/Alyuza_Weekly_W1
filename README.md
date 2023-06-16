@@ -4,9 +4,9 @@
 ![image](Assets/github.png)
 ## Hi, I'am Alyuza Satrio Prayogo 
 This is my first repository, and I have built a simple website that contains :
-- Profile
-- Contact
-- Media Social
+- Simple Profile
+- Contact / Media Social
+- My YouTube Videos
 
 ## COMPONENTS I USE
 - HTML
@@ -14,4 +14,4 @@ This is my first repository, and I have built a simple website that contains :
 - JavaScript
 - Assets (Image)
 
-Click [here](https://alyuza.netlify.app/) to see my Project.
+Click [here](https://alyuza.netlify.app/) to see my first Project.
